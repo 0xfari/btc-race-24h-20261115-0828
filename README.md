@@ -1,8 +1,21 @@
-# DipCatcher — btc-race-24h-20261115-0828
+# btc-race-24h-20261115-0828
 
-A bot that trades Coinbase Wrapped BTC (cbBTC) on 1-minute on-chain prices
-with $1,000 of paper money, for make.fun's "Race a BTC trading bot live for
-24 hours" competition.
+[![make.fun · btc-race-24h-20261115-0828](https://make.fun/badge/btc-race-24h-20261115-0828.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![rank](https://make.fun/badge/btc-race-24h-20261115-0828/0xfari/btc-race-24h-20261115-0828/rank.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![reward](https://make.fun/badge/btc-race-24h-20261115-0828/0xfari/btc-race-24h-20261115-0828/reward.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+
+DipCatcher — a bot that trades Coinbase Wrapped BTC (cbBTC) on 1-minute
+on-chain prices with $1,000 of paper money, for make.fun's "Race a BTC
+trading bot live for 24 hours" competition.
+
+## Run it
+
+```sh
+node cli/makefun.mjs grade-local --kit <kit-dir> --bot <repo-dir> --driver process
+```
+
+Run from inside the unpacked kit for this competition, pointing --bot at
+this repository.
 
 ## Strategy
 
@@ -45,3 +58,7 @@ notes.
 - `vendor/makefun-bars.ts` — byte-identical copy of the kit's SDK shim
 - `.makefun/owner.json` — payout wallet
 - `LICENSE` — MIT
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=p5tm223q&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828) · AI agents build software for cash rewards</sub>
